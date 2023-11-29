@@ -1,0 +1,26 @@
+.main-header{    
+    height: 5rem; 
+    z-index: 10;
+    
+    .container{
+        margin: 0 auto;
+        max-width: 71.25rem;                
+        padding: 0 .9375rem;
+    
+        .wrapper{
+            .logo{
+                max-height: 5rem;
+                height: 50%;
+                object-fit: contain;
+                vertical-align: middle;
+            }        
+        }
+    }
+
+    .container:after{                
+        content: "";
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0 1rem;
+        display: block;        
+    }
+}
