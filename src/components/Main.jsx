@@ -1,8 +1,8 @@
 import React, { memo, useEffect } from 'react'
 import { useState } from 'react';
 import Button from '@mui/material/Button';
-import convert from "../image/assets/convert.png";
-import copyIcon from "../image/assets/copy.png";
+import convert from "../assets/images/convert.png";
+import copyIcon from "../assets/images/copy.png";
 import ToggleButtons from './ToggleButtons';
 import "../css/Main.css"
 

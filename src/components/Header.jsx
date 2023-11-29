@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import logo from "../image/assets/kril-lotin.png"
+import logo from "../assets/images/kril-lotin.png";
 import "../css/Header.css"
 import { NavLink } from 'react-router-dom'
 
