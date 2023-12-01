@@ -62,9 +62,7 @@ const Main = ()=> {
             }else{
               answer += a[char];
             }
-          }else if((text[i] === 'Е' || text[i] === 'е') ){  
-            console.log('true')
-            //&& ((i === 0) || (i > 0 && text[i-1] === undefined))
+          }else if((text[i] === 'Е' || text[i] === 'е') && ((i === 0) || (i > 0 && a[i-1] === undefined))){  
             answer += text[i] === 'Е' ? 'Ye' : 'ye';
           }
           else{
