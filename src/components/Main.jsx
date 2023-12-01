@@ -63,6 +63,7 @@ const Main = ()=> {
               answer += a[char];
             }
           }else if((text[i] === 'Е' || text[i] === 'е') && ((i === 0) || (i > 0 && a[i-1] === undefined))){  
+            console.log(`text[i] = ${text[i]} \n a[i-1]=${a[i-1]}\n\n`)
             answer += text[i] === 'Е' ? 'Ye' : 'ye';
           }
           else{
